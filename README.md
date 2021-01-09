@@ -18,3 +18,73 @@ The node server should be RESTful and follow REST principles.
 2. Run `yarn start`
 3. The application should automatically open up in your browser, if not you can access at `http://localhost:3000/`
 
+## REST API
+
+
+The base URL used is `https://ecommerce-299100.uc.r.appspot.com/`
+
+# Endpoints
+* **URL**
+
+`/allitems`
+
+* **Method:**
+
+`GET`
+
+*  **Description:**
+
+Returns all the wearables items.
+
+* **URL**
+
+`/items/:id`
+
+* **Method:**
+
+`GET`
+
+*  **Description:**
+
+Returns a specific item, based on the id.
+
+* **URL**
+
+`/companies`
+
+* **Method:**
+
+`GET`
+
+*  **Description:**
+
+Returns all the companies available.
+
+* **URL**
+
+`/inventory/update`
+
+* **Method:**
+
+`PUT`
+
+*  **Description:**
+
+Updates an existing item, you can update the following parameters:
+
+
+```javascript
+   {
+      "name": "Barska GB12166 Fitness Watch with Heart Rate Monitor",
+      "price": "$49.99",
+      "bodyLocation": "Wrist",
+      "category": "Fitness",
+      "id": 1213,
+      "image": "https://via.placeholder.com/150"
+      "numInStock": 9,
+      "companyId": 19962
+    }
+
+```
+
+
