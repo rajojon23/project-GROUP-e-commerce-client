@@ -1,5 +1,5 @@
 # project-GROUP-e-commerce-client
-Client version only of [project-GROUP-e-commerce] (https://github.com/cb-wd-5/project-GROUP-e-commerce)
+Client version only of [project-GROUP-e-commerce](https://github.com/cb-wd-5/project-GROUP-e-commerce)
 
 We have to make use of stacks that we have learned thus far in the bootcamp to build an e-commerce app that will showcase all of the provided _wearables_ items.
 
